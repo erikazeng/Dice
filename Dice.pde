@@ -6,7 +6,7 @@ void setup()
       size(400,400);
   }
   void draw(){  
-    background(000,000,000);
+    background(255, 255, 255);
     for(int i = 10; i<=350; i+=50){
          for(int p = 10 ; p <= 350 ; p+=50){
            Die bob = new Die(i, p);
@@ -16,7 +16,7 @@ void setup()
          }
       }
       textSize(25);
-      stroke(255, 255, 255);
+      stroke(000, 000, 000);
       text ("number of pips is: " + sum, 50, 380);
       sum=0;
          
