@@ -16,10 +16,10 @@ void setup()
          }
       }
       textSize(25);
-      stroke(000, 000, 000);
+      
       text ("number of pips is: " + sum, 50, 380);
       sum=0;
-        stroke(255, 255, 255);
+       
          
   }
   void mousePressed()
