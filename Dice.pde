@@ -15,7 +15,6 @@ void setup()
            sum += bob.getPips();
          }
       }
-      System.out.println(sum);
       textSize(25);
       text ("number of pips is: " + sum, 50, 380);
       sum=0;
