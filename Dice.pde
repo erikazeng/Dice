@@ -16,7 +16,7 @@ void setup()
          }
       }
       textSize(25);
-      textColor(255, 255, 255);
+      stroke(255, 255, 255);
       text ("number of pips is: " + sum, 50, 380);
       sum=0;
          
